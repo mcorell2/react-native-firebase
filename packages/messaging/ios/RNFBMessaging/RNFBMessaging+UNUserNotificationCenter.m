@@ -74,7 +74,7 @@ struct {
     }
 
     // TODO in a later version allow customising completion options in JS code
-    completionHandler(UNNotificationPresentationOptionNone);
+    completionHandler(UNNotificationPresentationOptionAlert);
   }
 
   if (_originalDelegate != nil && originalDelegateRespondsTo.willPresentNotification) {
